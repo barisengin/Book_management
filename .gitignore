@@ -1,0 +1,30 @@
+# Root .gitignore
+.DS_Store
+.idea/
+.vscode/
+
+# Frontend
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage/
+/frontend/build/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Backend
+/backend/target/
+/backend/.mvn/
+/backend/!**/src/main/**/target/
+/backend/!**/src/test/**/target/
+/backend/.idea/
+/backend/*.iws
+/backend/*.iml
+/backend/*.ipr
+/backend/HELP.md
+/backend/.env
